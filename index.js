@@ -10,7 +10,7 @@ button.addEventListener('click', function (name) {
     .then(data=>{
         let menu = data["meals"]
         menu.forEach(element=>{
-            console.log(element["strMeal"])
+            console.log(element)
        
 
 
