@@ -26,5 +26,5 @@ button.addEventListener('click', function (name) {
         container.innerHTML += result;
       });
     })
-    .catch((err) => alert("error"));
+    .catch((err) => alert("err"));
 });
